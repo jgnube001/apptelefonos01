@@ -15,7 +15,7 @@
   "color": "#C7F3F0",
   "icon": "music",
   "unpublishedAppLayout": {
-    "type": "DESKTOP"
+    "type": "MOBILE"
   },
   "publishedAppLayout": {
     "type": "DESKTOP"
