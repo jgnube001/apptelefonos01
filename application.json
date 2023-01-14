@@ -7,18 +7,22 @@
     {
       "id": "Detalles",
       "isDefault": false
+    },
+    {
+      "id": "Login",
+      "isDefault": false
     }
   ],
   "viewMode": false,
   "appIsExample": false,
   "unreadCommentThreads": 0,
   "color": "#C7F3F0",
-  "icon": "music",
+  "icon": "bag",
   "unpublishedAppLayout": {
     "type": "MOBILE"
   },
   "publishedAppLayout": {
-    "type": "DESKTOP"
+    "type": "MOBILE"
   },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
