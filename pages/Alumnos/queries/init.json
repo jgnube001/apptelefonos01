@@ -21,14 +21,13 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "path": "/api:Zdc4Eg7N/oauth/google/init",
-      "headers": [
+      "headers": [],
+      "encodeParamsToggle": true,
+      "queryParameters": [
         {
-          "key": "",
           "value": "https://app.appsmith.com/app/apptelefonos01/alumnos-63bd60ea60108a12562984ab"
         }
       ],
-      "encodeParamsToggle": true,
-      "queryParameters": [],
       "bodyFormData": [],
       "httpMethod": "GET",
       "selfReferencingDataPaths": [],

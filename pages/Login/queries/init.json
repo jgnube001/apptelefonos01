@@ -7,7 +7,15 @@
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "https://x8ki-letl-twmt.n7.xano.io"
+        "url": "https://x8ki-letl-twmt.n7.xano.io",
+        "headers": [
+          {
+            "value": "https://app.appsmith.com/app/apptelefonos01/alumnos-63bd60ea60108a12562984ab"
+          },
+          {
+            "value": "https://app.appsmith.com/app/apptelefonos01/login-63bff47e9bd98b59e3cf0fe2"
+          }
+        ]
       },
       "invalids": [],
       "messages": [],
@@ -21,14 +29,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "path": "/api:Zdc4Eg7N/oauth/google/init",
-      "headers": [
-        {
-          "value": "https://app.appsmith.com/app/apptelefonos01/alumnos-63bd60ea60108a12562984ab"
-        },
-        {
-          "value": "https://app.appsmith.com/app/apptelefonos01/login-63bff47e9bd98b59e3cf0fe2"
-        }
-      ],
+      "headers": [],
       "encodeParamsToggle": true,
       "queryParameters": [],
       "bodyFormData": [],
