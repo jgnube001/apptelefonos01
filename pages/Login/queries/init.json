@@ -7,15 +7,7 @@
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "https://x8ki-letl-twmt.n7.xano.io",
-        "headers": [
-          {
-            "value": "https://app.appsmith.com/app/apptelefonos01/alumnos-63bd60ea60108a12562984ab"
-          },
-          {
-            "value": "https://app.appsmith.com/app/apptelefonos01/login-63bff47e9bd98b59e3cf0fe2"
-          }
-        ]
+        "url": "https://x8ki-letl-twmt.n7.xano.io"
       },
       "invalids": [],
       "messages": [],
@@ -31,7 +23,11 @@
       "path": "/api:Zdc4Eg7N/oauth/google/init",
       "headers": [],
       "encodeParamsToggle": true,
-      "queryParameters": [],
+      "queryParameters": [
+        {
+          "value": "https://app.appsmith.com/app/apptelefonos01/alumnos-63bd60ea60108a12562984ab"
+        }
+      ],
       "bodyFormData": [],
       "httpMethod": "GET",
       "selfReferencingDataPaths": [],
@@ -57,5 +53,5 @@
   },
   "id": "Login_init",
   "deleted": false,
-  "gitSyncId": "63bd60ea60108a12562984a8_63c3463b0276ad261d6fb837"
+  "gitSyncId": "63bd60ea60108a12562984a8_63c3ff1608b52d06b809d6f5"
 }

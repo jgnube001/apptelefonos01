@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 460,
+          "bottomRow": 570,
           "containerStyle": "none",
           "snapRows": 57,
           "parentRowSpace": 1,
@@ -37,15 +37,15 @@
                 "parent",
                 "group"
               ],
-              "topRow": 8,
-              "bottomRow": 18,
+              "topRow": 2,
+              "bottomRow": 12,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "hideCard": false,
               "shouldScrollContents": true,
               "animateLoading": true,
               "parentColumnSpace": 6.84375,
-              "leftColumn": 3,
+              "leftColumn": 2,
               "dynamicBindingPathList": [
                 {
                   "key": "borderRadius"
@@ -195,7 +195,7 @@
               "key": "p25nurx2ir",
               "backgroundColor": "#FFFFFF",
               "isDeprecated": false,
-              "rightColumn": 63,
+              "rightColumn": 62,
               "dynamicHeight": "AUTO_HEIGHT",
               "widgetId": "f85jeahrmo",
               "containerStyle": "card",
