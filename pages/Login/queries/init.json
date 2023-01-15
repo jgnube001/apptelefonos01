@@ -25,6 +25,7 @@
       "encodeParamsToggle": true,
       "queryParameters": [
         {
+          "key": "redirect_uri",
           "value": "https://app.appsmith.com/app/apptelefonos01/alumnos-63bd60ea60108a12562984ab"
         }
       ],
