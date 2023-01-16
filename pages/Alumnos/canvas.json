@@ -811,7 +811,7 @@
                       "text": "Nombre:",
                       "key": "ggdkon48bv",
                       "isDeprecated": false,
-                      "rightColumn": 15,
+                      "rightColumn": 19,
                       "textAlign": "LEFT",
                       "dynamicHeight": "AUTO_HEIGHT",
                       "widgetId": "w8fhhmftwk",
@@ -848,7 +848,7 @@
                       "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
                       "parentColumnSpace": 6.4921875,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 15,
+                      "leftColumn": 19,
                       "dynamicBindingPathList": [
                         {
                           "key": "truncateButtonColor"
@@ -868,7 +868,7 @@
                       "text": "{{Table1.selectedRow.Alumno}}",
                       "key": "ggdkon48bv",
                       "isDeprecated": false,
-                      "rightColumn": 62,
+                      "rightColumn": 64,
                       "textAlign": "LEFT",
                       "dynamicHeight": "AUTO_HEIGHT",
                       "widgetId": "xq3z53zmr6",
