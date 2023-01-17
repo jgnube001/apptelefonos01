@@ -1256,7 +1256,7 @@
               "dynamicHeight": "AUTO_HEIGHT",
               "widgetId": "7f6dqf6ief",
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-              "defaultTab": "{{ConsultaAutorizados.data.includes(oauth_continue.data.email) ? 'logedin':'notlogedin'}}",
+              "defaultTab": "{{ConsultaAutorizados.data.includes({email: oauth_continue.data.email}) ? 'logedin':'notlogedin'}}",
               "shouldShowTabs": false,
               "tabsObj": {
                 "tab2": {
