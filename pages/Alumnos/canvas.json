@@ -1057,7 +1057,9 @@
               "name": "oauth_continue",
               "confirmBeforeExecute": false,
               "pluginType": "API",
-              "jsonPathKeys": [],
+              "jsonPathKeys": [
+                "appsmith.URL.queryParams.code"
+              ],
               "timeoutInMillisecond": 10000
             }
           ]

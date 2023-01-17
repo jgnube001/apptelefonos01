@@ -23,7 +23,8 @@
       "path": "/api:Zdc4Eg7N/oauth/google/continue",
       "headers": [
         {
-          "key": "code"
+          "key": "code",
+          "value": "{{appsmith.URL.queryParams.code}}"
         },
         {
           "key": "redirect_uri",
@@ -31,7 +32,12 @@
         }
       ],
       "encodeParamsToggle": true,
-      "queryParameters": [],
+      "queryParameters": [
+        {
+          "key": "code",
+          "value": ""
+        }
+      ],
       "bodyFormData": [],
       "httpMethod": "GET",
       "selfReferencingDataPaths": [],
@@ -45,11 +51,17 @@
       }
     },
     "executeOnLoad": true,
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "headers[0].value"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [],
+    "jsonPathKeys": [
+      "appsmith.URL.queryParams.code"
+    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
