@@ -1019,7 +1019,7 @@
               ],
               "shouldTruncate": false,
               "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-              "text": "Usuario: {{oauth_continue.data.name}}",
+              "text": "Usuario: {{oauth_continue.data.email}}",
               "key": "i8i3r90rez",
               "isDeprecated": false,
               "rightColumn": 63,
