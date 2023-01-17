@@ -1256,22 +1256,24 @@
               "dynamicHeight": "AUTO_HEIGHT",
               "widgetId": "7f6dqf6ief",
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-              "defaultTab": "{{oauth_continue.data.email === 'jgalan@iesguadalquivir.net' ? 'logedin':'notlogedin'}}",
+              "defaultTab": "{{comprueba_usuario.myFun2() ? 'logedin':'notlogedin'}}",
               "shouldShowTabs": false,
               "tabsObj": {
-                "tab1": {
-                  "label": "logedin",
-                  "id": "tab1",
-                  "widgetId": "ylv8y6e1lp",
-                  "isVisible": true,
-                  "index": 0
-                },
                 "tab2": {
                   "label": "notlogedin",
                   "id": "tab2",
                   "widgetId": "6hqa5hop8t",
                   "isVisible": true,
-                  "index": 1
+                  "index": 0,
+                  "isDuplicateLabel": false
+                },
+                "tab1": {
+                  "label": "logedin",
+                  "id": "tab1",
+                  "widgetId": "ylv8y6e1lp",
+                  "isVisible": true,
+                  "index": 1,
+                  "isDuplicateLabel": false
                 }
               },
               "isVisible": true,
@@ -1306,6 +1308,20 @@
               "pluginType": "API",
               "jsonPathKeys": [
                 "appsmith.URL.queryParams.code"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Alumnos_comprueba_usuario.myFun2",
+              "name": "comprueba_usuario.myFun2",
+              "collectionId": "Alumnos_comprueba_usuario",
+              "clientSideExecution": true,
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "async () => {\n  if (oauth_continue.data.email === \"jgalan@iesguadalquivir.net\") return true; else return false;\n}"
               ],
               "timeoutInMillisecond": 10000
             }

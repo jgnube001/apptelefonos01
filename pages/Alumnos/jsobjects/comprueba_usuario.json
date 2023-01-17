@@ -1,0 +1,29 @@
+{
+  "unpublishedCollection": {
+    "name": "comprueba_usuario",
+    "pageId": "Alumnos",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tvarMailCorrecto: false,\n\tmyFun1: () => {\n\t\t//write code here\n\t},\n\tmyFun2: async () => {\n\t\t//use async-await or promises\n\t\tif (oauth_continue.data.email === \"jgalan@iesguadalquivir.net\")\n\t\t\treturn true;\n\t\telse\n\t\t\treturn false;\n\t}\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      },
+      {
+        "name": "varMailCorrecto",
+        "value": "false"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Alumnos_comprueba_usuario",
+  "deleted": false,
+  "gitSyncId": "63bd60ea60108a12562984a8_63c71d4918e3f0482be661b0"
+}
