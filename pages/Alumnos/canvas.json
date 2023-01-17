@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 460,
+          "bottomRow": 1290,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -31,7 +31,7 @@
               "borderColor": "#E0DEDE",
               "isVisibleDownload": false,
               "iconSVG": "/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
-              "topRow": 1,
+              "topRow": 12,
               "isSortable": false,
               "type": "TABLE_WIDGET_V2",
               "inlineEditingSaveOption": "ROW_LEVEL",
@@ -165,7 +165,7 @@
                 }
               ],
               "displayName": "Table",
-              "bottomRow": 29,
+              "bottomRow": 40,
               "columnWidthMap": {
                 "task": 245,
                 "step": 62,
@@ -982,6 +982,61 @@
               "maxDynamicHeight": 9000,
               "width": 427.5,
               "minDynamicHeight": 24
+            },
+            {
+              "widgetName": "Text4",
+              "displayName": "Text",
+              "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+              "searchTags": [
+                "typography",
+                "paragraph",
+                "label"
+              ],
+              "topRow": 1,
+              "bottomRow": 5,
+              "parentRowSpace": 10,
+              "type": "TEXT_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "overflow": "NONE",
+              "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+              "parentColumnSpace": 6.84375,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 1,
+              "dynamicBindingPathList": [
+                {
+                  "key": "truncateButtonColor"
+                },
+                {
+                  "key": "fontFamily"
+                },
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "text"
+                }
+              ],
+              "shouldTruncate": false,
+              "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+              "text": "Usuario: {{oauth_continue.data.email}}",
+              "key": "i8i3r90rez",
+              "isDeprecated": false,
+              "rightColumn": 63,
+              "textAlign": "LEFT",
+              "dynamicHeight": "AUTO_HEIGHT",
+              "widgetId": "5jgvahvh6e",
+              "isVisible": true,
+              "fontStyle": "BOLD",
+              "textColor": "#231F20",
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "maxDynamicHeight": 9000,
+              "fontSize": "1rem",
+              "minDynamicHeight": 4
             }
           ]
         },
@@ -992,6 +1047,16 @@
               "name": "ConsultaTelefonos01",
               "confirmBeforeExecute": false,
               "pluginType": "SAAS",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Alumnos_oauth_continue",
+              "name": "oauth_continue",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             }
