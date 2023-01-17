@@ -21,7 +21,9 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "path": "/api:Zdc4Eg7N/oauth/google/continue",
-      "headers": [
+      "headers": [],
+      "encodeParamsToggle": true,
+      "queryParameters": [
         {
           "key": "code",
           "value": "{{appsmith.URL.queryParams.code}}"
@@ -29,13 +31,6 @@
         {
           "key": "redirect_uri",
           "value": "https://app.appsmith.com/app/apptelefonos01/alumnos-63bd60ea60108a12562984ab"
-        }
-      ],
-      "encodeParamsToggle": true,
-      "queryParameters": [
-        {
-          "key": "code",
-          "value": ""
         }
       ],
       "bodyFormData": [],
@@ -53,7 +48,7 @@
     "executeOnLoad": true,
     "dynamicBindingPathList": [
       {
-        "key": "headers[0].value"
+        "key": "queryParameters[0].value"
       }
     ],
     "isValid": true,
