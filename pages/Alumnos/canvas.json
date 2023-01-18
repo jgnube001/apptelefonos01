@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 74,
+          "version": 75,
           "minHeight": 1292,
           "dynamicTriggerPathList": [],
           "parentColumnSpace": 1,
@@ -1256,7 +1256,7 @@
               "dynamicHeight": "AUTO_HEIGHT",
               "widgetId": "7f6dqf6ief",
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-              "defaultTab": "{{ConsultaAutorizados.data.includes({email: oauth_continue.data.email}) ? 'logedin':'notlogedin'}}",
+              "defaultTab": "{{ConsultaAutorizados.data.some(e => e.email === oauth_continue.data.email) ? 'logedin':'notlogedin'}}",
               "shouldShowTabs": false,
               "tabsObj": {
                 "tab2": {
@@ -1284,7 +1284,7 @@
               "originalTopRow": 6,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 21,
+              "originalBottomRow": 22,
               "minDynamicHeight": 15
             }
           ]
