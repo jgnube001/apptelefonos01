@@ -1122,7 +1122,7 @@
                       "resetFormOnClick": false,
                       "boxShadow": "none",
                       "widgetName": "Button2Copy",
-                      "onClick": "{{navigateTo('Login', {}, SAME_WINDOW'))}}",
+                      "onClick": "{{navigateTo('Login', {}, 'SAME_WINDOW')}}",
                       "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
                       "dynamicPropertyPathList": [
                         {
