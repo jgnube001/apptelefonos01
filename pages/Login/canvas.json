@@ -38,7 +38,7 @@
                 "group"
               ],
               "topRow": 2,
-              "bottomRow": 18,
+              "bottomRow": 17,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "hideCard": false,
@@ -59,12 +59,12 @@
                   "widgetName": "Canvas1",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 160,
+                  "bottomRow": 150,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
                   "hideCard": true,
-                  "minHeight": 160,
+                  "minHeight": 150,
                   "parentColumnSpace": 1,
                   "leftColumn": 0,
                   "dynamicBindingPathList": [],
@@ -79,7 +79,7 @@
                         "label"
                       ],
                       "topRow": 2,
-                      "bottomRow": 7,
+                      "bottomRow": 6,
                       "parentRowSpace": 10,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
@@ -88,7 +88,7 @@
                       "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
                       "parentColumnSpace": 6.103515625,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 14,
+                      "leftColumn": 0,
                       "dynamicBindingPathList": [
                         {
                           "key": "truncateButtonColor"
@@ -105,7 +105,7 @@
                       "text": "Identifícate con tu cuenta @iesguadalquivir.net",
                       "key": "a7pdxbapq8",
                       "isDeprecated": false,
-                      "rightColumn": 53,
+                      "rightColumn": 64,
                       "textAlign": "CENTER",
                       "dynamicHeight": "AUTO_HEIGHT",
                       "widgetId": "ty28853t7v",
@@ -140,8 +140,8 @@
                         "click",
                         "submit"
                       ],
-                      "topRow": 8,
-                      "bottomRow": 14,
+                      "topRow": 7,
+                      "bottomRow": 13,
                       "parentRowSpace": 10,
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,

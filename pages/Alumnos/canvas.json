@@ -466,7 +466,7 @@
               "minDynamicHeight": 24
             },
             {
-              "widgetName": "Text4",
+              "widgetName": "email_logueado",
               "displayName": "Text",
               "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
               "searchTags": [
@@ -501,10 +501,10 @@
               ],
               "shouldTruncate": false,
               "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-              "text": "Usuario: {{oauth_continue.data.email}}",
+              "text": "{{oauth_continue.data.email}}",
               "key": "i8i3r90rez",
               "isDeprecated": false,
-              "rightColumn": 63,
+              "rightColumn": 42,
               "textAlign": "LEFT",
               "dynamicHeight": "AUTO_HEIGHT",
               "widgetId": "5jgvahvh6e",
@@ -528,7 +528,7 @@
               "displayName": "Tabs",
               "iconSVG": "/static/media/icon.74a6d653c8201e66f1cd367a3fba2657.svg",
               "topRow": 6,
-              "bottomRow": 29,
+              "bottomRow": 34,
               "parentRowSpace": 10,
               "type": "TABS_WIDGET",
               "hideCard": false,
@@ -1169,10 +1169,10 @@
                       "parentId": "6hqa5hop8t",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "originalTopRow": 15,
+                      "originalTopRow": 14,
                       "disabledWhenInvalid": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "originalBottomRow": 22,
+                      "originalBottomRow": 21,
                       "buttonVariant": "PRIMARY",
                       "placement": "CENTER"
                     },
@@ -1256,8 +1256,8 @@
               "dynamicHeight": "AUTO_HEIGHT",
               "widgetId": "7f6dqf6ief",
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-              "defaultTab": "{{ConsultaAutorizados.data.some(e => e.email === oauth_continue.data.email) ? 'logedin':'notlogedin'}}",
-              "shouldShowTabs": false,
+              "defaultTab": "{{JSObject1.autorizado() ? 'logedin':'notlogedin'}}",
+              "shouldShowTabs": true,
               "tabsObj": {
                 "tab2": {
                   "label": "notlogedin",
@@ -1284,7 +1284,7 @@
               "originalTopRow": 6,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 30,
+              "originalBottomRow": 34,
               "minDynamicHeight": 15
             }
           ]
