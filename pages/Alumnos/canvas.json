@@ -528,7 +528,7 @@
               "displayName": "Tabs",
               "iconSVG": "/static/media/icon.74a6d653c8201e66f1cd367a3fba2657.svg",
               "topRow": 6,
-              "bottomRow": 34,
+              "bottomRow": 29,
               "parentRowSpace": 10,
               "type": "TABS_WIDGET",
               "hideCard": false,
@@ -1257,7 +1257,7 @@
               "widgetId": "7f6dqf6ief",
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
               "defaultTab": "{{JSObject1.autorizado() ? 'logedin':'notlogedin'}}",
-              "shouldShowTabs": true,
+              "shouldShowTabs": false,
               "tabsObj": {
                 "tab2": {
                   "label": "notlogedin",
