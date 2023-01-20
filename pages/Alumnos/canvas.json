@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 460,
+          "bottomRow": 1290,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -525,6 +525,11 @@
               "widgetName": "Tabs1",
               "borderColor": "#E0DEDE",
               "isCanvas": true,
+              "dynamicPropertyPathList": [
+                {
+                  "key": "isVisible"
+                }
+              ],
               "displayName": "Tabs",
               "iconSVG": "/static/media/icon.74a6d653c8201e66f1cd367a3fba2657.svg",
               "topRow": 6,
@@ -1246,6 +1251,35 @@
                   "parentId": "7f6dqf6ief",
                   "renderMode": "CANVAS",
                   "isLoading": false
+                },
+                {
+                  "tabId": "tabaprg5mom6f",
+                  "widgetName": "Canvas4",
+                  "displayName": "Canvas",
+                  "topRow": 1,
+                  "bottomRow": 230,
+                  "parentRowSpace": 1,
+                  "type": "CANVAS_WIDGET",
+                  "canExtend": false,
+                  "hideCard": true,
+                  "minHeight": 230,
+                  "parentColumnSpace": 1,
+                  "dynamicTriggerPathList": [],
+                  "leftColumn": 0,
+                  "dynamicBindingPathList": [],
+                  "children": [],
+                  "key": "s156gzlqe6",
+                  "isDeprecated": false,
+                  "tabName": "cargando",
+                  "rightColumn": 424.3125,
+                  "detachFromLayout": true,
+                  "widgetId": "sxjujxijx2",
+                  "containerStyle": "none",
+                  "isVisible": true,
+                  "version": 1,
+                  "parentId": "7f6dqf6ief",
+                  "renderMode": "CANVAS",
+                  "isLoading": false
                 }
               ],
               "borderWidth": 1,
@@ -1256,15 +1290,23 @@
               "dynamicHeight": "AUTO_HEIGHT",
               "widgetId": "7f6dqf6ief",
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-              "defaultTab": "{{JSObject1.autorizado() ? 'logedin':'notlogedin'}}",
+              "defaultTab": "{{JSObject1.autorizado()}}",
               "shouldShowTabs": false,
               "tabsObj": {
+                "tabaprg5mom6f": {
+                  "id": "tabaprg5mom6f",
+                  "index": 0,
+                  "label": "cargando",
+                  "widgetId": "sxjujxijx2",
+                  "isVisible": true,
+                  "isDuplicateLabel": false
+                },
                 "tab2": {
                   "label": "notlogedin",
                   "id": "tab2",
                   "widgetId": "6hqa5hop8t",
                   "isVisible": true,
-                  "index": 0,
+                  "index": 1,
                   "isDuplicateLabel": false
                 },
                 "tab1": {
@@ -1272,11 +1314,11 @@
                   "id": "tab1",
                   "widgetId": "ylv8y6e1lp",
                   "isVisible": true,
-                  "index": 1,
+                  "index": 2,
                   "isDuplicateLabel": false
                 }
               },
-              "isVisible": true,
+              "isVisible": "true",
               "version": 3,
               "parentId": "0",
               "renderMode": "CANVAS",
