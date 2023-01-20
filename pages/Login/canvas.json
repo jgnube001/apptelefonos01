@@ -38,7 +38,7 @@
                 "group"
               ],
               "topRow": 2,
-              "bottomRow": 17,
+              "bottomRow": 18,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "hideCard": false,
@@ -59,12 +59,12 @@
                   "widgetName": "Canvas1",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 150,
+                  "bottomRow": 160,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
                   "hideCard": true,
-                  "minHeight": 150,
+                  "minHeight": 160,
                   "parentColumnSpace": 1,
                   "leftColumn": 0,
                   "dynamicBindingPathList": [],
@@ -79,7 +79,7 @@
                         "label"
                       ],
                       "topRow": 2,
-                      "bottomRow": 6,
+                      "bottomRow": 7,
                       "parentRowSpace": 10,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
@@ -102,11 +102,11 @@
                       ],
                       "shouldTruncate": false,
                       "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "Identifícate:",
+                      "text": "Identifícate con tu cuenta @iesguadalquivir.net",
                       "key": "a7pdxbapq8",
                       "isDeprecated": false,
                       "rightColumn": 53,
-                      "textAlign": "LEFT",
+                      "textAlign": "CENTER",
                       "dynamicHeight": "AUTO_HEIGHT",
                       "widgetId": "ty28853t7v",
                       "isVisible": true,
@@ -116,7 +116,7 @@
                       "parentId": "h0ubgk46kx",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "originalTopRow": 3,
+                      "originalTopRow": 2,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
                       "originalBottomRow": 7,
@@ -140,8 +140,8 @@
                         "click",
                         "submit"
                       ],
-                      "topRow": 6,
-                      "bottomRow": 13,
+                      "topRow": 8,
+                      "bottomRow": 14,
                       "parentRowSpace": 10,
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
@@ -152,7 +152,7 @@
                           "key": "onClick"
                         }
                       ],
-                      "leftColumn": 14,
+                      "leftColumn": 17,
                       "dynamicBindingPathList": [
                         {
                           "key": "buttonColor"
@@ -165,7 +165,7 @@
                       "isDisabled": false,
                       "key": "iwmuf163c7",
                       "isDeprecated": false,
-                      "rightColumn": 53,
+                      "rightColumn": 49,
                       "isDefaultClickDisabled": true,
                       "widgetId": "6j0ohvonmx",
                       "isVisible": true,
@@ -174,10 +174,10 @@
                       "parentId": "h0ubgk46kx",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "originalTopRow": 11,
+                      "originalTopRow": 8,
                       "disabledWhenInvalid": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "originalBottomRow": 15,
+                      "originalBottomRow": 14,
                       "buttonVariant": "PRIMARY",
                       "placement": "CENTER"
                     }
@@ -227,7 +227,7 @@
     ],
     "userPermissions": [],
     "policies": [],
-    "isHidden": false
+    "isHidden": true
   },
   "deleted": false,
   "gitSyncId": "63bd60ea60108a12562984a8_63bff47e9bd98b59e3cf0fe1"
