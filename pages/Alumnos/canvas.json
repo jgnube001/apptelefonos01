@@ -164,7 +164,7 @@
                       "text": "{{Table1Copy.selectedRow.Telefono2}}",
                       "key": "lctun8lj46",
                       "isDeprecated": false,
-                      "rightColumn": 17,
+                      "rightColumn": 25,
                       "textAlign": "LEFT",
                       "dynamicHeight": "AUTO_HEIGHT",
                       "widgetId": "oeju4y61fi",
@@ -201,7 +201,7 @@
                       "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
                       "parentColumnSpace": 6.4921875,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 20,
+                      "leftColumn": 26,
                       "dynamicBindingPathList": [
                         {
                           "key": "truncateButtonColor"
@@ -313,7 +313,7 @@
                       "text": "Teléfonos de contacto de:",
                       "key": "ggdkon48bv",
                       "isDeprecated": false,
-                      "rightColumn": 41,
+                      "rightColumn": 58,
                       "textAlign": "LEFT",
                       "dynamicHeight": "AUTO_HEIGHT",
                       "widgetId": "tk7jttto5f",
@@ -592,7 +592,7 @@
                       "text": "{{Table1Copy.selectedRow.Telefono1}}",
                       "key": "lctun8lj46",
                       "isDeprecated": false,
-                      "rightColumn": 17,
+                      "rightColumn": 25,
                       "textAlign": "LEFT",
                       "dynamicHeight": "AUTO_HEIGHT",
                       "widgetId": "71lpgu898d",
@@ -629,7 +629,7 @@
                       "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
                       "parentColumnSpace": 6.4921875,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 20,
+                      "leftColumn": 26,
                       "dynamicBindingPathList": [
                         {
                           "key": "truncateButtonColor"
