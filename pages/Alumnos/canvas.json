@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 860,
+          "bottomRow": 810,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -708,8 +708,8 @@
                 "paragraph",
                 "label"
               ],
-              "topRow": 74,
-              "bottomRow": 78,
+              "topRow": 69,
+              "bottomRow": 73,
               "parentRowSpace": 10,
               "type": "TEXT_WIDGET",
               "hideCard": false,
@@ -749,10 +749,10 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "originalTopRow": 15,
+              "originalTopRow": 74,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 19,
+              "originalBottomRow": 78,
               "fontSize": "1rem",
               "minDynamicHeight": 4
             },
@@ -769,7 +769,7 @@
               "displayName": "Tabs",
               "iconSVG": "/static/media/icon.74a6d653c8201e66f1cd367a3fba2657.svg",
               "topRow": 0,
-              "bottomRow": 74,
+              "bottomRow": 69,
               "parentRowSpace": 10,
               "type": "TABS_WIDGET",
               "hideCard": false,
@@ -1385,7 +1385,7 @@
                       "rightColumn": 63,
                       "textSize": "0.875rem",
                       "widgetId": "ew30k73gei",
-                      "tableData": "{{ConsultaTelefonos01.data[0-500]}}",
+                      "tableData": "{{ConsultaTelefonos01.data}}",
                       "label": "Data",
                       "searchKey": "",
                       "parentId": "ylv8y6e1lp",
@@ -1590,7 +1590,7 @@
               "widgetId": "7f6dqf6ief",
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
               "defaultTab": "{{JSObject1.autorizado()}}",
-              "shouldShowTabs": true,
+              "shouldShowTabs": false,
               "tabsObj": {
                 "tabaprg5mom6f": {
                   "id": "tabaprg5mom6f",
@@ -1625,7 +1625,7 @@
               "originalTopRow": 0,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 15,
+              "originalBottomRow": 74,
               "minDynamicHeight": 15
             }
           ]
