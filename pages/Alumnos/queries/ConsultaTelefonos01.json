@@ -28,7 +28,7 @@
         },
         "pagination": {
           "data": {
-            "limit": "20",
+            "limit": "500",
             "offset": "0"
           }
         },
@@ -49,10 +49,10 @@
           ]
         },
         "queryFormat": {
-          "data": "RANGE"
+          "data": "ROWS"
         },
         "range": {
-          "data": "A2:L1000"
+          "data": "A2:L500"
         },
         "sheetName": {
           "data": "Hoja 1"
