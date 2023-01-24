@@ -38,19 +38,21 @@
             "Grupo",
             "Telefono1",
             "Contacto1",
-            "Activo1",
-            "Comentarios1",
             "Telefono2",
             "Contacto2",
-            "Activo2",
-            "Comentarios2"
+            "Detalles",
+            "Comentarios",
+            "Telefono3",
+            "Contacto3",
+            "Telefono4",
+            "Contacto4"
           ]
         },
         "queryFormat": {
           "data": "RANGE"
         },
         "range": {
-          "data": "A2:J1000"
+          "data": "A2:L1000"
         },
         "sheetName": {
           "data": "Hoja 1"
