@@ -29,8 +29,8 @@
   "evaluationVersion": 2,
   "applicationVersion": 2,
   "embedSetting": {
-    "height": "720px",
-    "width": "1024px",
+    "height": "500px",
+    "width": "320px",
     "showNavigationBar": false
   },
   "isManualUpdate": false,
