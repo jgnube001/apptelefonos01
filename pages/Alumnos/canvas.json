@@ -221,7 +221,7 @@
                       "text": "{{Table1Copy.selectedRow.Contacto2}}",
                       "key": "lctun8lj46",
                       "isDeprecated": false,
-                      "rightColumn": 61,
+                      "rightColumn": 64,
                       "textAlign": "LEFT",
                       "dynamicHeight": "AUTO_HEIGHT",
                       "widgetId": "imramguhgz",
@@ -236,7 +236,7 @@
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
                       "originalBottomRow": 12,
-                      "fontSize": "1rem",
+                      "fontSize": "0.875rem",
                       "minDynamicHeight": 4
                     },
                     {
@@ -649,7 +649,7 @@
                       "text": "{{Table1Copy.selectedRow.Contacto1}}",
                       "key": "lctun8lj46",
                       "isDeprecated": false,
-                      "rightColumn": 61,
+                      "rightColumn": 64,
                       "textAlign": "LEFT",
                       "dynamicHeight": "AUTO_HEIGHT",
                       "widgetId": "nuv0dunp7s",
@@ -664,7 +664,7 @@
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
                       "originalBottomRow": 12,
-                      "fontSize": "1rem",
+                      "fontSize": "0.875rem",
                       "minDynamicHeight": 4
                     }
                   ],
